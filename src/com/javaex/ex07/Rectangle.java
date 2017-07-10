@@ -14,5 +14,9 @@ public class Rectangle extends Shape{
 	public void draw() {
 		System.out.println("사각형을 그렸습니다.[가로:"+width+"세로:"+height+"]");
 	}
+	public double area() {
+		return width*height;
+	}
+	
 
 }

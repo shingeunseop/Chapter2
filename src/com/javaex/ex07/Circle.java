@@ -12,6 +12,9 @@ public class Circle extends Shape{
 		System.out.println("원을 그렸습니다. [반지름:"+radius+"]");
 		
 	}
+	public double area() {
+		return radius*radius*3.18;
+	}
 
 
 }

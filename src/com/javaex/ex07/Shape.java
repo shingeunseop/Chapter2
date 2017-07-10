@@ -1,6 +1,6 @@
 package com.javaex.ex07;
 
-public class Shape {
+public abstract class Shape {
 	private String fillColor;
 	private String lineColor;
 	
@@ -9,8 +9,7 @@ public class Shape {
 		this.fillColor=fillColor;
 		this.lineColor=lineColor;
 	}
-	public void draw() {
-		System.out.println("그릴 수 없다.");
-	}
-
+	public abstract void draw();
+	
+	
 }

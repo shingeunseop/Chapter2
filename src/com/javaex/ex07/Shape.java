@@ -9,7 +9,8 @@ public abstract class Shape {
 		this.fillColor=fillColor;
 		this.lineColor=lineColor;
 	}
-	public abstract void draw();
+	/*public abstract void draw();*/
+	public abstract double area();
 	
 	
 }

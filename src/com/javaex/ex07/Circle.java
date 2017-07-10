@@ -1,6 +1,6 @@
 package com.javaex.ex07;
 
-public class Circle extends Shape{
+public class Circle extends Shape implements Drawable{
 	private int radius;
 	
 	public Circle() {}
